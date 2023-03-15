@@ -1,0 +1,95 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+
+body {
+  margin: 0;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+#registrationForm {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 100px auto;
+  padding: 20px;
+  background-color: #e25858;
+  border-radius: 5px;
+  width: 300px;
+}
+
+#registrationForm label {
+  margin-bottom: 5px;
+}
+
+#registrationForm input[type="text"],
+#registrationForm select {
+  margin-bottom: 20px;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  width: 100%;
+}
+
+#registrationForm button[type="submit"] {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #4caf50;
+  color: #fff;
+  cursor: pointer;
+}
+
+#registrationForm button[type="submit"]:hover {
+  background-color: #3e8e41;
+}
+
+
+#messages {
+  list-style-type: none;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 5px;
+  width: 300px;
+  height: 300px;
+  overflow-y: scroll;
+}
+
+#messages li {
+  margin-bottom: 10px;
+}
+
+
+#sendForm {
+  display: flex;
+  align-items: center;
+  margin: 20px auto;
+  padding: 10px;
+  background-color: #f2f2f2;
+  border-radius: 5px;
+  width: 300px;
+}
+
+#sendForm input[type="text"] {
+  margin-right: 10px;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  width: 100%;
+}
+
+#sendForm button[type="submit"] {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #4caf50;
+  color: #fff;
+  cursor: pointer;
+}
+
+#sendForm button[type="submit"]:hover {
+  background-color: #3e8e41;
+}
